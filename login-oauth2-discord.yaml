@@ -1,0 +1,6 @@
+enabled: true
+built_in_css: true
+client_id: ''
+client_secret: ''
+options:
+  scope: ['identify', 'email']

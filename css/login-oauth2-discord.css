@@ -1,0 +1,6 @@
+.form-oauth2 button.discord {
+    background: #7289DA;
+}
+.form-oauth2 button.discord:hover {
+    background: #687DC7;
+}
