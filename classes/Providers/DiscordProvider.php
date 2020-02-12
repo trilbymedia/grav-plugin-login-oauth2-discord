@@ -12,7 +12,7 @@ class DiscordProvider extends BaseProvider
     /** @var Discord */
     protected $provider;
 
-    public function __construct(array $options)
+    public function initProvider(array $options)
     {
         $this->config = Grav::instance()['config'];
 
@@ -22,7 +22,7 @@ class DiscordProvider extends BaseProvider
             'redirectUri'   => $this->getCallbackUri(),
         ];
 
-        parent::__construct($options);
+        parent::initProvider($options);
     }
 
     public function getAuthorizationUrl()
